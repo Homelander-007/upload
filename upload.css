@@ -94,8 +94,6 @@ nav {
     border-radius: 50%;
     background-color: #000000ac;
     margin: auto;
-    margin-top: 10%;
-    margin-right: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,7 +132,7 @@ nav {
     font-size: 44px;
     margin-top: 13%;
     margin-left: 11%;
-    margin-botton: auto;
+    margin-bottom: auto;
 }
 
 #me p{
