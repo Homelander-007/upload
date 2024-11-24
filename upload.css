@@ -26,7 +26,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    max-width: 1200px;
     margin: auto;
     padding: 0 20px;
 }
@@ -72,7 +72,7 @@ nav {
 }
 
 #contact{
-    background-image:    url('upload.jpg');
+    background-image:    url('contact.jpg');
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center;
@@ -100,18 +100,6 @@ nav {
     align-items: center;
 }
 
-@media (max-width: 1000px){
-    .gola{
-        margin-right: 1%;
-        margin-top: 1%; 
-        height: 222px;
-        width: 222px;
-    }
-    .body{
-        height: 100%;
-    }
-}
-
 .con{
     display: flex;
     position: relative;
@@ -121,7 +109,7 @@ nav {
     align-items: center;
     height: 300px;
     width: 60%;
-    margin-top: 10px;
+    margin-top: -90px;
     gap: 33px;
 }
 
@@ -132,9 +120,7 @@ nav {
 
 #me h1{
     font-size: 44px;
-    margin-top: 13%;
-    margin-left: 11%;
-    margin-bottom: auto;
+    margin-top: 90px;
 }
 
 #me p{
